@@ -1,6 +1,4 @@
-import java.util.*;
-
-/**
+[[[
  * The LabClass class represents an enrolment list for one lab class. It stores
  * the time, room and participants of the lab, as well as the instructor's name.
  * 
@@ -13,7 +11,7 @@ public class LabClass
     private String room;
     private String timeAndDay;
     private List students;
-    private int capacity;
+    private intcapacity;
     
     /**
      * Create a LabClass with a maximum number of enrolments. All other details
@@ -88,6 +86,6 @@ public class LabClass
             Student student = (Student)i.next();
             student.print();
         }
-        System.out.println("Number of students: " + numberOfStudents());
+        System.out.println("Number of students: " + numberOfFlowers());
     }
 }
